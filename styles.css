@@ -1,0 +1,51 @@
+body {
+  background-color: #F6F4EB ;  
+   
+}
+h1 {
+    color: rgb(62, 171, 190);    
+    font-family: skythe;
+    font-size:  75px;
+    margin: 10;
+    margin-bottom: 3;
+}
+
+h2 {
+    font-family: "sacramento";
+    font-size: 30px;
+}
+
+.centercontainer {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+
+}
+.centercontainer2 {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    font-size: 27px;
+    font-family: "sacramento";
+}
+
+#left {
+    margin-right: 10px;
+}
+#right {
+    margin-left: 10px;
+}
+
+@font-face  {
+    font-family: "alkatra";
+    src: url(./Alkatra/Alkatra-VariableFont_wght.ttf)
+}
+@font-face {
+    font-family: "skythe";
+    src: url(./Fonts/Smythe-Regular.ttf)
+}
+@font-face {
+    font-family: "sacramento";
+    src: url(./Fonts/Sacramento-Regular.ttf)
+}
+
